@@ -3,9 +3,10 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Input from "./Input";
 import Hello from "./Hello";
 import Welcome from "./Welcome";
-import HomePage from "./HomePage";
+import HomePage from "../pages/HomePage";
 import VerifyEmail from "../pages/VerifyEmail";
 import SignUp from "../pages/SignUp";
+import Roles from "../pages/Roles";
 
 const RouterComponent = () => {
 
@@ -16,6 +17,7 @@ const RouterComponent = () => {
                 <Route path="/home" element={<HomePage/>}/>
                 <Route path="/input" element={<Input/>}/>
                 <Route path="/hello" element={<Hello/>}/>
+                <Route path="/roles" element={<Roles/>}/>
                 <Route path="/welcome" element={<Welcome/>}/>
                 <Route path="/verify-email/:id" element={<VerifyEmail/>}/>
             </Routes>

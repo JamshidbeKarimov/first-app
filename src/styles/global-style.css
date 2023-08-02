@@ -1,5 +1,8 @@
 .blue-button {
-    background-color: deepskyblue;
+    margin-top: 20px;
+    margin-left:10px;
+    font-size: 24px;
+    background-color: #e8eeef;
     border-color: deepskyblue;
     border-radius: 5px;
 }

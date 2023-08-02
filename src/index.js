@@ -10,11 +10,19 @@ import Counter from "./component/Counter";
 import List from "./component/List";
 import ConditionalRendering from "./component/ConditionalRendering";
 import SignUp from "./pages/SignUp";
+import ClassComponent from "./component/ClassComponent";
+import MessageClass from "./component/MessageClass";
+import HomePage from "./pages/HomePage";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <RouterComponent/>
+        {/*<ClassComponent/>*/}
+        {/*<MessageClass/>*/}
+        {/*<MyMenu/>*/}
+        {/*<HomePage/>*/}
         {/*<Counter/>*/}
         {/* eslint-disable-next-line react/jsx-no-undef */}
         {/*<List/>*/}
